@@ -1,33 +1,95 @@
 #Change Log
 
-Team membership:  AB (Captain) & CD (Mate)  
+Team membership:  WH (Captain), WH (First-mate), WH (Second-mate)
 Team conventions: Allman notation, markdown for changelog  
 Changelog format: [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) 
+## *Version 1.2*
 
-## *Version x.x*
-
-Release Date: Jul 26, 2027
+Release Date: Jan. 27, 2018
 
 ## New Components
 
--   controllers
+-   models
+    -   images.php
+        -   added model to query database for images
+    
+## Updated Components
 
-    -   serbian (AB)
+-   controllers
+    -   Gallery.php
+        -   Modified controller to use db queries
+    -   Welcome.php
+        -   Modified controller to use db queries
+
+-   views
+    -   gallery.php
+        -   Modified page to use database variable
+    -   welcome.php
+        -   Modified page to use database variable
+
+## *Version 1.1.1*
+
+Release Date: Jan. 27, 2018
+
+## Bugfixes
+-   /public
+    -   readded files removed by previous push
+
+## *Version 1.1*
+
+Release Date: Jan. 27, 2018
+
+## New Components
+
+-   views
+    -   template.php
+        -   Added template page that holds html headers and common page elements
     
 ## Updated Components
 
 -   controllers
 
-    -   german (CD)
-    -   hindi (CD)
-
--   models
-
-    -   italian (AB)
+    -   About.php
+        -   Modified controller to use template
+    -   Gallery.php
+        -   Modified controller to use template
+    -   Welcome.php
+        -   Modified controller to use template
 
 -   views
 
-    -   slovenian (AB)
-    -   swedish
+    -   about.php
+        -   Removed headers code, page only contains content now
+    -   gallery.php
+        -   Removed headers code, page only contains content now
+    -   welcome.php
+        -   Removed headers code, page only contains content now
+
+## *Version 1.0*
+
+Release Date: Jan. 27, 2018
+
+## New Components
+
+-   controllers
+
+    -   about
+    -   gallery
+    
+## Updated Components
+
+-   controllers
+
+    -   welcome
+
+-   views
+
+    -   about.php
+        -   Updated hrefs in ehader to redirect to new php views
+    -   gallery.php
+        -   Updated hrefs in header to redirect to new php views
+    -   welcome.php
+        -   Renamed index.html to welcome.php
+        -   Updated hrefs in header to redirect to new php views
 
 

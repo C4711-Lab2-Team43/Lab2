@@ -5,6 +5,14 @@ Team conventions: Allman notation, markdown for changelog
 Changelog format: [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) 
 
 
+## *Version 1.1.1*
+
+Release Date: Jan. 27, 2018
+
+## Bugfixes
+-   /public
+    -   readded files removed by previous push
+
 ## *Version 1.1*
 
 Release Date: Jan. 27, 2018

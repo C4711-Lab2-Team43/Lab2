@@ -3,7 +3,29 @@
 Team membership:  WH (Captain), WH (First-mate), WH (Second-mate)
 Team conventions: Allman notation, markdown for changelog  
 Changelog format: [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) 
+## *Version 1.2*
 
+Release Date: Jan. 27, 2018
+
+## New Components
+
+-   models
+    -   images.php
+        -   added model to query database for images
+    
+## Updated Components
+
+-   controllers
+    -   Gallery.php
+        -   Modified controller to use db queries
+    -   Welcome.php
+        -   Modified controller to use db queries
+
+-   views
+    -   gallery.php
+        -   Modified page to use database variable
+    -   welcome.php
+        -   Modified page to use database variable
 
 ## *Version 1.1.1*
 
